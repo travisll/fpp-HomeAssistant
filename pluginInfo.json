@@ -1,5 +1,5 @@
 {
-	"repoName": "fpp-HomeAssistant-trav",
+	"repoName": "fpp-HomeAssistant",
 	"name": "Home Assistant (trav)",
 	"author": "Chris Pinkham (CaptainMurdoch)",
 	"description": "Integrate FPP with Home Assistant via MQTT Auto Discovery",
