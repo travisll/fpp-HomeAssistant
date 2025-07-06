@@ -449,7 +449,7 @@ private:
             s["schema"] = "json";
             s["qos"] = 0;
             s["brightness"] = true;
-            s["rgb"] = true;
+            //s["rgb"] = true;
             s["effect"] = false;
 
             AddHomeAssistantDiscoveryConfig("light", lightName, s, config["models"][modelNames[i]]);
