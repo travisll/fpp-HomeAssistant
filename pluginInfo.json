@@ -1,11 +1,11 @@
 {
-	"repoName": "fpp-HomeAssistant",
-	"name": "Home Assistant",
+	"repoName": "fpp-HomeAssistant-trav",
+	"name": "Home Assistant (trav)",
 	"author": "Chris Pinkham (CaptainMurdoch)",
 	"description": "Integrate FPP with Home Assistant via MQTT Auto Discovery",
-	"homeURL": "https://github.com/FalconChristmas/fpp-HomeAssistant",
-	"srcURL": "https://github.com/FalconChristmas/fpp-HomeAssistant.git",
-	"bugURL": "https://github.com/FalconChristmas/fpp-HomeAssistant/issues",
+	"homeURL": "https://github.com/travisll/fpp-HomeAssistant",
+	"srcURL": "https://github.com/travisll/fpp-HomeAssistant.git",
+	"bugURL": "https://github.com/travisll/fpp-HomeAssistan/issues",
 	"versions": [
         {
             "minFPPVersion": "4.0",
