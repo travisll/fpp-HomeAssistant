@@ -14,7 +14,7 @@ CXXFLAGS_src/FPP-HomeAssistant.o += -I$(SRCDIR)
 %.o: %.cpp Makefile
 	$(CCACHE) $(CC) $(CFLAGS) $(CXXFLAGS) $(CXXFLAGS_$@) -c $< -o $@
 
-libfpp-HomeAssistant_travisll.$(SHLIB_EXT): $(OBJECTS_fpp_HomeAssistant_so) $(SRCDIR)/libfpp.$(SHLIB_EXT)
+libfpp-HomeAssistant-travisll.$(SHLIB_EXT): $(OBJECTS_fpp_HomeAssistant_so) $(SRCDIR)/libfpp.$(SHLIB_EXT)
 	$(CCACHE) $(CC) -shared $(CFLAGS_$@) $(OBJECTS_fpp_HomeAssistant_so) $(LIBS_fpp_HomeAssistant_so) $(LDFLAGS) -o $@
 
 clean:
