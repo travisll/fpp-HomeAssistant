@@ -18,5 +18,5 @@ libfpp-HomeAssistant-travisll.$(SHLIB_EXT): $(OBJECTS_fpp_HomeAssistant_travisll
 	$(CCACHE) $(CC) -shared $(CFLAGS_$@) $(OBJECTS_fpp_HomeAssistant_travisll_so) $(LIBS_fpp_HomeAssistant_travisll_so) $(LDFLAGS) -o $@
 
 clean:
-	rm -f libfpp-HomeAssistant_travisll.so $(OBJECTS_fpp_HomeAssistant_travisll__so)
+	rm -f libfpp-HomeAssistant-travisll.so $(OBJECTS_fpp_HomeAssistant_travisll__so)
 
