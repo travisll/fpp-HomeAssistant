@@ -1,7 +1,7 @@
 {
-	"repoName": "fpp-HomeAssistant (travi)",
+	"repoName": "fpp-HomeAssistant",
 	"name": "Home Assistant (trav)",
-	"author": "Chris Pinkham (CaptainMurdoch)",
+	"author": "Travis Llewellyn",
 	"description": "Integrate FPP with Home Assistant via MQTT Auto Discovery",
 	"homeURL": "https://github.com/travisll/fpp-HomeAssistant",
 	"srcURL": "https://github.com/travisll/fpp-HomeAssistant.git",
